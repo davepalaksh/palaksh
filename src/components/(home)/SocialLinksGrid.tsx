@@ -1,10 +1,10 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaDochub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const socialLinks = [
-    { href: 'https://github.com/pranshu05', icon: <FaGithub />, text: 'GitHub' },
-    { href: 'https://linkedin.com/in/pranshu05', icon: <FaLinkedin />, text: 'LinkedIn' },
-    { href: 'https://twitter.com/pranshu_05', icon: <FaTwitter />, text: 'Twitter' },
-    { href: 'https://instagram.com/pranshu.05', icon: <FaInstagram />, text: 'Instagram' },
+     { href: 'https://drive.google.com/file/d/1wQQkn_o-AyK60bvvdPwzet-LIYbTHcpR/view?usp=sharing', icon: <FaDochub />, text: 'Resume' },
+    { href: 'https://github.com/davepalaksh', icon: <FaGithub />, text: 'GitHub' },
+    { href: 'https://linkedin.com/in/palakshdave', icon: <FaLinkedin />, text: 'LinkedIn' },
+    { href: 'https://twitter.com/homxsapien', icon: <FaTwitter />, text: 'Twitter' },
 ];
 
 const SocialLinksGrid: React.FC = () => (
