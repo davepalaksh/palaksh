@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-const images = ['/home-2.webp', '/home-3.webp', '/home-1.webp', '/home-4.webp'];
+const images = ['/IMG_0681.JPG', '/IMG_1020.JPG', '/IMG_1231.JPG', '/IMG_1233.JPG'];
 
 const HomeImageGrid: React.FC = () => (
     <div className="flex justify-center gap-5 overflow-hidden lg:overflow-visible py-4">
