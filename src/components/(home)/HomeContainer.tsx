@@ -22,11 +22,11 @@ const HomeContainer: React.FC = () => {
                 </div>
                 <p className="text-zinc-400">Data engineer, India • {currentTime}</p>
             </div>
-            <p>Hey there! 👋🏻 I&apos;m Palaksh, a Data Engineer based in India. 📫 Here's how you can reach me: <a className="link" href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer">palakshdave@gmail.com</a>.</p>
+            <p>Hey there! 👋🏻 I&apos;m Palaksh, a Data Engineer based in India. 📫 Here&apos;s how you can reach me: <a className="link" href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer">palakshdave@gmail.com</a>.</p>
             <SocialLinksGrid />
-            <p>In my free time, I like to click photos, some of them are showcased below. Check out my <Link className='link' href='/gallery'>gallery</Link> for more. (Checkout my <a href='https://unsplash.com/@pranshu05' target='_blank' className='link'>Unsplash profile</a>.)</p>
+            <p>In my free time, I like to click photos, some of them are showcased below. Check out my <Link className='link' href='/gallery'>gallery</Link> for more. (Checkout my <a href='https://vsco.co/zerxs3/gallery' target='_blank' className='link'>VSCO</a>.)</p>
             <HomeImageGrid />
-            <p>I love to work on web development, and I&apos;m insterested in web3, Cloud Computing, DevOps, and CyberSecurity. I also enjoy contributing to <a className='link' href='https://github.com/pranshu05' target='_blank'>open-source projects</a> and writing <Link className='link' href='/posts'>technical blogs</Link>.</p>
+            <p>I&apos;m insterested in Cloud Computing, DevOps, and Stream Processing. I also enjoy contributing to <a className='link' href='https://github.com/davepalaksh' target='_blank'>Github</a></p>
         </div>
     )
 }
