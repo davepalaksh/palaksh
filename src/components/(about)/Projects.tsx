@@ -50,7 +50,6 @@ const Projects: React.FC = () => (
                 <div className="flex gap-2">{techStack.map((tech, index) => (<div key={index} className="rounded-lg bg-zinc-900 p-[6px] text-sm">{tech}</div>))}</div>
                 <div className="flex gap-2 text-xs">
                     {github && <a href={github} target="_blank" className="text-xl my-1"><FaGithub /></a>}
-                    {website && <a href={website} target="_blank" className="text-xl my-1"><FaGlobe /></a>}
                 </div>
             </div>
         ))}
