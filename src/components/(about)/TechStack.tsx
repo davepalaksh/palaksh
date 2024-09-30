@@ -1,26 +1,17 @@
-import { FaHtml5, FaCss3, FaJsSquare, FaReact, FaNodeJs, FaGithub, FaDiscord, FaGit } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiMdx, SiVercel, SiVisualstudiocode, SiVisualstudio, SiMongodb, SiTypescript, SiFirebase, SiVim, SiObsidian } from 'react-icons/si';
+import { FaPython, FaLinux, FaGithub } from 'react-icons/fa';
+import { SiMysql, SiApachespark, SiApacheairflow, SiDatabricks, SiVisualstudiocode, SiVisualstudio, SiMongodb, SiApachehadoop, SiMicrosoftazure, SiVim, SiObsidian } from 'react-icons/si';
 
 const techs = [
-    { icon: <FaHtml5 />, href: 'https://developer.mozilla.org/en-US/docs/Web/HTML', name: 'HTML' },
-    { icon: <FaCss3 />, href: 'https://developer.mozilla.org/en-US/docs/Web/CSS', name: 'CSS' },
-    { icon: <FaJsSquare />, href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript', name: 'JavaScript' },
-    { icon: <SiTypescript />, href: 'https://www.typescriptlang.org/', name: 'TypeScript' },
-    { icon: <FaReact />, href: 'https://reactjs.org/', name: 'ReactJS' },
-    { icon: <SiNextdotjs />, href: 'https://nextjs.org/', name: 'NextJS' },
-    { icon: <FaNodeJs />, href: 'https://nodejs.org/', name: 'NodeJS' },
-    { icon: <SiTailwindcss />, href: 'https://tailwindcss.com/', name: 'Tailwind' },
-    { icon: <SiMdx />, href: 'https://mdxjs.com/', name: 'MDX' },
-    { icon: <SiMongodb />, href: 'https://www.mongodb.com/', name: 'MongoDB' },
-    { icon: <SiFirebase />, href: 'https://firebase.google.com/', name: 'Firebase' },
-    { icon: <FaGit />, href: 'https://git-scm.com/', name: 'Git' },
-    { icon: <FaGithub />, href: 'https://github.com/', name: 'GitHub' },
-    { icon: <SiVercel />, href: 'https://vercel.com/', name: 'Vercel' },
-    { icon: <SiVisualstudiocode />, href: 'https://code.visualstudio.com/', name: 'VSCode' },
-    { icon: <SiVisualstudio />, href: 'https://visualstudio.microsoft.com/', name: 'VisualStudio' },
-    { icon: <SiVim />, href: 'https://neovim.io', name: 'NeoVim' },
-    { icon: <SiObsidian />, href: 'https://obsidian.md', name: 'Obsidian' },
-    { icon: <FaDiscord />, href: 'https://discord.com/', name: 'Discord' }
+    { icon: <FaPython />, name: 'Python' },
+    { icon: <SiMysql />, name: 'Mysql' },
+    { icon: <FaLinux />, name: 'Linux' },
+    { icon: <SiApachehadoop />, name: 'Hadoop' },
+    { icon: <SiDatabricks />, name: 'Databricks' },
+    { icon: <SiApachespark />, name: 'Spark' },
+    { icon: <SiApacheairflow />, name: 'Airflow' },
+    { icon: <SiMongodb />, name: 'MongoDB' },
+    { icon: <SiMicrosoftazure />, name: 'Azure' },
+    { icon: <FaGithub />, name: 'GitHub' },
 ];
 
 const TechStack: React.FC = () => (
