@@ -37,7 +37,7 @@ const projects = [
         title: 'Zomato Dataset Analysis',
         description: 'Exploratory data analysis',
         techStack: ['Python', 'Numpy', 'Pandas'],
-        github: 'https://github.com/davepalaksh/Zomato-Case-Study,
+        github: 'https://github.com/davepalaksh/Zomato-Case-Study',
     },
 ]
 
