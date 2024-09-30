@@ -20,14 +20,13 @@ const HomeContainer: React.FC = () => {
                     <h1 className="text-3xl font-medium text-zinc-100">Palaksh Dave</h1>
                     <p className="text-sm px-1 text-zinc-400">(He/Him)</p>
                 </div>
-                <p className="text-zinc-400">Data engineer, India • {currentTime}</p>
+                <p className="text-zinc-400">Data Engineer, India • {currentTime}</p>
             </div>
-            <p>Hey there! 👋🏻 I&apos;m Palaksh, a Data Engineer based in India.</p> 
-            <a>📫 Here&apos;s how you can reach me: <a className="link" href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer">palakshdave@gmail.com</a>
+            <p>Hey there! 👋🏻 I&apos;m Palaksh, a Data Engineer based in India. Currently working on a few projects and here&apos:s how you can reach me <a className="link" href="https://mail.google.com/mail/?tab=rm&authuser=0&ogbl" target="_blank" rel="noopener noreferrer">palakshdave@gmail.com</a>.</p>
             <SocialLinksGrid />
-            <p>In my free time, I like to click photos, some of them are showcased below. Check out my <Link className='link' href='/gallery'>gallery</Link> for more. (Checkout my <a href='https://vsco.co/zerxs3/gallery' target='_blank' className='link'>VSCO</a>.)</p>
+            <p>In my free time, I like to click photos, some of them are showcased below. Check out my <Link className='link' href='/gallery'>gallery</Link> for more. (Checkout my <a href='https://vsco.co/zerxs3/gallery' target='_blank' className='link'>VSCO profile</a>.)</p>
             <HomeImageGrid />
-            <p>I&apos;m insterested in Cloud Computing, DevOps, and Stream Processing. I also enjoy contributing to <a className='link' href='https://github.com/davepalaksh' target='_blank'>Github</a></p>
+            <p>I&apos;m insterested in Cloud Computing, DevOps, and CyberSecurity. I also enjoy contributing to <a className='link' href='https://github.com/davepalaksh' target='_blank'>open-source projects</a> and writing <Link className='https://medium.com/@ymcmb6022' href='/posts'>technical blogs</Link>.</p>
         </div>
     )
 }
