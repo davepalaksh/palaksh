@@ -1,7 +1,7 @@
 import { FaGithub, FaDochub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const socialLinks = [
-     { href: 'https://drive.google.com/file/d/1wQQkn_o-AyK60bvvdPwzet-LIYbTHcpR/view?usp=sharing', icon: <FaDochub />, text: 'Resume' },
+     { href: 'https://drive.google.com/file/d/1-JyocvKMoT5rSDS5ezaBskA2SKqhUQa0/view?usp=sharing', icon: <FaDochub />, text: 'Resume' },
     { href: 'https://github.com/davepalaksh', icon: <FaGithub />, text: 'GitHub' },
     { href: 'https://linkedin.com/in/palakshdave', icon: <FaLinkedin />, text: 'LinkedIn' },
     { href: 'https://twitter.com/homxsapien', icon: <FaTwitter />, text: 'Twitter' },
