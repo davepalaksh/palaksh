@@ -43,7 +43,7 @@ const projects = [
 
 const Projects: React.FC = () => (
     <div className="w-full my-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-        {projects.map(({ title, description, techStack, github, website }, index) => (
+        {projects.map(({ title, description, techStack, github }, index) => (
             <div className="bg-transparent outline outline-[2px] outline-zinc-700 rounded-lg w-full p-4 flex flex-col gap-2" key={index}>
                 <div className="text-xl font-bold">{title}</div>
                 <div>{description}</div>
