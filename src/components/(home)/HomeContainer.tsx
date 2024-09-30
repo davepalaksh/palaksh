@@ -22,8 +22,7 @@ const HomeContainer: React.FC = () => {
                 </div>
                 <p className="text-zinc-400">Data engineer, India • {currentTime}</p>
             </div>
-            <p>Hey there! 👋🏻 I&apos;m Palaksh, a Data Engineer based in India. Currently working on a few projects and
-            <p>📫 Here&apos;s how you can reach me: <a className="link" href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer">palakshdave@gmail.com</a></p>  
+            <p>Hey there! 👋🏻 I&apos;m Palaksh, a Data Engineer based in India. Currently working on a few projects and 📫 Here&apos;s how you can reach me: <a className="link" href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer">palakshdave@gmail.com</a></p> 
             <SocialLinksGrid />
             <p>In my free time, I like to click photos, some of them are showcased below. Check out my <Link className='link' href='/gallery'>gallery</Link> for more. (Checkout my <a href='https://vsco.co/zerxs3/gallery' target='_blank' className='link'>VSCO</a>.)</p>
             <HomeImageGrid />
